@@ -1,0 +1,15 @@
+.album {
+    text-align: left;
+    margin: 0;
+
+    &_thumbnail {
+        img {
+            border-radius: 5px;
+        }
+    }
+
+    &_title {
+        font-weight: bold;
+        margin-top: 0;
+    }
+}

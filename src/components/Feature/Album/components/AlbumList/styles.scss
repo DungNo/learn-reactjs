@@ -1,0 +1,16 @@
+.container h2 {
+    text-align: left;
+    padding: 0 20px;
+}
+.album-list {
+    display: flex;
+    flex-flow: nowrap;
+    padding: 0;
+
+    li {
+        list-style-type: none;
+        padding: 0 20px;
+        max-width: 320px;
+        cursor: pointer;
+    }
+}
